@@ -1,11 +1,35 @@
+/*  *//*  *//*  *//*  *//*  */
+          /* Navbar */
+/*  *//*  *//*  *//*  *//*  *//*  */
 .navbar__container{
   display: flex;
   justify-content: space-around;
   padding: 2rem;
 
 }
+
 .links__container{
   display: flex;
   gap: 1rem;
   list-style: none;
+}
+
+.nav__link{
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav__link:hover{
+  border-bottom: 2px solid #228EEB;
+}
+
+
+/*  *//*  *//*  *//*  *//*  */
+          /* Hero Page */
+/*  *//*  *//*  *//*  *//*  *//*  */
+
+.hero__container{
+  display: flex;
+  flex-direction: column;
 }

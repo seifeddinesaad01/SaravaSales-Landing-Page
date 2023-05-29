@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/Logo.png";
 const NavBar = () => {
-  const links = ["Home", "About Us", "Blog", "Text"];
+  const links = ["Home", "About", "Blog", "Text"];
   return (
     <div className="navbar__container">
       <img src={Logo} alt="LOGO" />
