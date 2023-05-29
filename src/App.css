@@ -85,7 +85,7 @@ font-weight: 700;
 .section1__cards{
   display: flex;
 gap: 5rem;
-height: 35vh;
+height: 25vh;
 }
 
 .section1__card{
@@ -106,6 +106,9 @@ height: 35vh;
   margin-top: -1rem;
 }
 
+/*  *//*  *//*  *//*  *//*  */
+          /* Section Two */
+/*  *//*  *//*  *//*  *//*  *//*  */
 
 .sectionTwo__container{
   display: flex;
@@ -113,6 +116,7 @@ height: 35vh;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem;
 }
 
 .section2__card{
