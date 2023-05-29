@@ -6,9 +6,11 @@ const Hero = () => {
   return (
  <div className="hero__container">
     <div className="hero__top">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ratione.</p>
+      <h2>Boost yourgrowth & revenue</h2>
+      <p>Borem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button className='hero__btn'>Contact Us</button>
     </div>
-    <img src={HeroBg} alt="Hero" style={{height:'70vh', width:'80%'}}/>
+    <img src={HeroBg} alt="Hero" style={{height:'70vh', width:'100%'}}/>
  </div>
   )
 }

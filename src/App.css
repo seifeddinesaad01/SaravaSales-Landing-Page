@@ -32,4 +32,32 @@
 .hero__container{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+ 
+}
+
+.hero__top{
+  display: flex;
+  flex-direction: column;
+   margin-left: 16rem;
+}
+
+.hero__btn{
+  width: 10%;
+  border: none;
+  background-color: #F8C71A;
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+transition: 0.4s;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.hero__btn:hover{
+  background-color: #228EEB;
+  color: #fff;
+  /* border: 2px solid #F8C71A; */
 }
