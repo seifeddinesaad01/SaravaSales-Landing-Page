@@ -84,7 +84,8 @@ font-weight: 700;
 
 .section1__cards{
   display: flex;
-gap: 2rem;
+gap: 5rem;
+height: 50vh;
 }
 
 .section1__card{
