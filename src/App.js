@@ -9,6 +9,7 @@ import SectionFour from './components/Section-4/SectionFour';
 import SectionFive from './components/Section-5/SectionFive';
 import Form from './components/Form/Form';
 import SectionSix from './components/Section-6/SectionSix';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SectionFive />
       <Form />
       <SectionSix />
+      <Footer/>
     </>
   );
 }

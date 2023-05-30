@@ -309,3 +309,45 @@ background-size: cover;
 height: 391px;
 width: 291px;
 }
+
+.footer__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  height: 30vh;
+  
+  margin-bottom: 2rem;
+}
+
+.footer__top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 2rem;
+  border-bottom: 2px solid #DFDFDF;
+}
+
+.footer__section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+.footer__bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
