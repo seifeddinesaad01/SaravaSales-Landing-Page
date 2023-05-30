@@ -8,6 +8,7 @@ import SectionThree from './components/Section-3/SectionThree';
 import SectionFour from './components/Section-4/SectionFour';
 import SectionFive from './components/Section-5/SectionFive';
 import Form from './components/Form/Form';
+import SectionSix from './components/Section-6/SectionSix';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SectionFour />
       <SectionFive />
       <Form />
+      <SectionSix />
     </>
   );
 }
