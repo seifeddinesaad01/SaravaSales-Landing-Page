@@ -239,3 +239,25 @@
   align-items: center;
   gap: 2rem;
 }
+
+
+.form__container{
+  margin: 4rem;
+  background-color: #2D86D4;
+  padding: 4rem;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.form{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 616px;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 8px;
+}
