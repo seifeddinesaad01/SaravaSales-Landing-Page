@@ -4,8 +4,8 @@ const SectionThree = () => {
   return (
    <div className="section3__container">
     <div className="section3__left">
-      <h1>About Us</h1>
-      <p style={{marginTop:'-1rem'}}>Do You Have Any Question?</p>
+      <h1 style={{fontSize: '4rem'}}>About Us</h1>
+      <p style={{marginTop:'-1rem', fontSize: '1.2rem'}}>Do You Have Any Question?</p>
       <button className='hero__btn'>Contact Us</button>
       {/* <div className="section3__icons">
         <p>facebook</p>
